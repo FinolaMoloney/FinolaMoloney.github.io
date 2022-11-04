@@ -1,0 +1,45 @@
+/*@media (min-width:500px){
+	.container1{
+	display:flex;
+	justify-content:stretch;
+	}
+	.skillscontainer{
+	display:flex;
+	justify-content:stretch;
+	}
+}*/
+.row{
+	justify-content:space-between;
+}
+body{
+	font-family:Times New Roman;
+	margin:20px;
+}
+h1, h2, h4{
+	background-color:grey;
+	color:black;
+	text-align:center;
+	text-decoration:underline;
+}
+h3{
+	text-align:center;
+}
+.bold{
+	text-decoration:bold;
+}
+ul{
+	list-style-type:circle;
+	color:black;
+}
+.jump:hover{
+	font-size:200%
+}
+h5{
+	font-size:15px;
+}
+.col1, .col2, .col3{
+	border:1px solid;
+	flex:1;
+}
+
+
